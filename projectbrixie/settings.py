@@ -21,8 +21,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 load_dotenv()
 
 
-AZURE_OPENAI_API_KEY="CwihcUBe3zT9PfZ3VDrTaAfKdpkXQAzub4Esh4FPXKcMAn0ct33yJQQJ99BGACHYHv6XJ3w3AAAAACOG9BWo"
-AZURE_OPENAI_ENDPOINT="https://brixie-resource.cognitiveservices.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview/"
+AZURE_OPENAI_API_KEY=""
+AZURE_OPENAI_ENDPOINT=""
 AZURE_OPENAI_DEPLOYMENT_NAME="gpt-4o"
 
 # Quick-start development settings - unsuitable for production
