@@ -21,9 +21,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 load_dotenv()
 
 
-AZURE_OPENAI_API_KEY = os.getenv('AZURE_OPENAI_API_KEY')
-AZURE_OPENAI_ENDPOINT = os.getenv('AZURE_OPENAI_ENDPOINT')
-AZURE_OPENAI_DEPLOYMENT_NAME = os.getenv('AZURE_OPENAI_DEPLOYMENT_NAME')
+AZURE_OPENAI_API_KEY="CwihcUBe3zT9PfZ3VDrTaAfKdpkXQAzub4Esh4FPXKcMAn0ct33yJQQJ99BGACHYHv6XJ3w3AAAAACOG9BWo"
+AZURE_OPENAI_ENDPOINT="https://brixie-resource.cognitiveservices.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview/"
+AZURE_OPENAI_DEPLOYMENT_NAME="gpt-4o"
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
@@ -34,7 +34,7 @@ SECRET_KEY = 'django-insecure-0+^ttcd&_=4oi8(9ttafir_@bz!pvx!iw)x8(itxr60np+7fye
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 
